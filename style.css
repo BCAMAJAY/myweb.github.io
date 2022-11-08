@@ -1,0 +1,248 @@
+/*{
+    font-family: 'Roboto', sans-serif;
+}
+font{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Supermercado One', cursive;
+}
+/*body*/
+body{
+    margin: 0;
+}
+#topbar{
+    background-color: #576574;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+}
+#tollfree{
+    float: left;
+    color: white;
+    margin: 0;
+}
+.uni_padding{
+    padding: 0 7%;
+}
+#social-icon{
+    float: right;
+}
+.fab{
+    background-color: white;
+    color: #576574;
+    padding: 7px;
+    border-radius: 50%;
+}
+#logo img{
+    width: 500px;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#logo img:hover{
+    opacity: 50%;
+}
+/*Nav bar*/
+#nav-bar ul{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    background-color: rgb(40, 21, 128);
+    margin-top: 10px;
+}
+#nav-bar ul li{
+    display: inline-block;
+    padding: 5px 20px;
+    color: white;
+    font-size:24px;
+}
+#nav-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+/*content*/
+#poster{
+    background-image: url(../icon/milky.jpg);
+    opacity: 30px;
+    color: white;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    text-align: center;
+    font-size: 18px;
+}
+/*why us sction start*/
+#whyus{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.section33{
+    width: 33.33%;
+    float: right;
+    padding: 0px 50px 0px 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.section33 h2{
+    color: rgb(40, 21, 128);
+    font-size: 24px;
+}
+.section33 p{
+    color: #363636;
+}
+/*Contact section*/
+.contact_container{
+    background-color: rgb(40, 21, 128);
+    color: white;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.section30 a{
+    background-color: white;
+    text-decoration: none;  
+    color: rgb(40, 21, 128);
+    padding: 15px 50px;
+    border-radius: 10%;
+    font-size: 30px;
+    width: 30%;
+}
+.section30 a:hover{
+    opacity: 50%;
+}
+/*blog*/
+#blog{
+    overflow:auto;
+    padding-bottom: 30px;
+    border-style: groove;
+    border-width: 20px;
+    text-align: center;
+}
+.image{
+    width: 120%;
+    height: 110%;
+}
+.section33 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(40, 21, 128);
+}
+.section50 h1{
+    
+}
+/*Subscribe*/
+#subscribe{
+    background-color: rgb(40, 21, 128);
+    color: white;
+    overflow:auto;
+    padding: 40px 0;
+}
+.section50 h1{
+    float: left;
+    
+}
+.section50 form{
+    padding-top: 30px;
+    float: right;
+}
+.section50 input[type="email"]{
+padding: 10px 15px;
+font-size: 15px;
+color: rgb(40, 21, 128);
+margin-right: 20px;
+border:0px;
+width: 45%;
+}
+.section50 input[type="submit"]{
+    padding: 7px 35px;
+    font-size: 15px;
+    border: 0px;
+    color: rgb(40, 21, 128);
+}
+/*footer*/
+#imp_link{
+    background-color:#576574;
+    color: white;
+    overflow: auto;
+}
+.red_hadding{
+    color: rgb(40, 21, 128);
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.div33{
+width: 33.33%;
+float: left;
+padding:20px 25px;
+box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+#imp-foot{
+    list-style-type: none;
+    padding: 0;
+}
+#imp-foot li{
+    padding: 5px;
+}
+#imp-foot li a{
+    text-decoration: none;
+    color: white;
+}
+#menu-container{
+    padding-right: 100px;
+}
+#copyright{
+    background-color: #222f3e;
+    color:#cbcbcb ;
+    text-align: center;
+    padding: 10px;
+}
+/*heading font*/
+h1,h2,h3,h4,h5,h6{
+        font-family: 'Roboto', sans-serif;
+    font-family: 'Supermercado One', cursive;
+
+}
+/*ipad responsive*/
+@media only screen and (max-width:360px){
+    overflow: auto;
+    padding-bottom: 63px;
+    border-style: groove;
+    border-width: -38px;
+    text-align: center;
+}
+#st{
+    animation-duration: 1s;
+    animation-timing-function: step-start;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: styles_blink__2CKyC;
+}
